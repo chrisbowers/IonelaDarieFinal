@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Take Notes</title>
+<script src="jquery.mobile-1.4.2.min.js" type="text/javascript"></script>
+<link href="jquery.mobile-1.4.2.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.11.0.min.js" type="text/javascript"></script>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+    <div data-role="header">
+    
+        <h1><img src="images/icon.png" alt="Header"></h1>
+    </div>
+<div data-role="formpage" id="formp">
+    <form action="" method="post" id="form">
+    <ul data-role="listview" id="courseDetailsFields">
+    <li data-role="list-divider">Course Details:</li>
+    <li data-role="fieldcontain">
+    <label for="taskName">Name</label>
+    <input type="text" name="taskName" id="taskName" value=""/>
+    </li>
+    
+    <li data-role="fieldcontain">
+    <label for="taskLocation">Location</label>
+    <input type="text" name="taskLocation" id="taskLocation" value=""/></li>
+    
+    <li data-role="fieldcontain">
+    <label for="taskYear">Year</label>
+    <input type="range" min="1" max="4" step="4" name="taskYear" value=""/></li>
+    </ul></form></div>
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+</div>
+</body>
+</html>
+
+    
